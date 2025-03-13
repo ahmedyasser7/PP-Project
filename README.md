@@ -6,6 +6,7 @@ Parallel Programming Course - BFCAI
  It is designed for efficient bulk data processing with parallel execution.
 
 ** Features:
+
 Reads a CSV file 
 
 Processes and validates data before saving
