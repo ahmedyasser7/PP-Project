@@ -7,9 +7,13 @@ Parallel Programming Course - BFCAI
 
 ** Features:
 Reads a CSV file 
+
 Processes and validates data before saving
+
 Stores records in a relational database (H2, MySQL, PostgreSQL, etc.)
+
 Uses Spring Batch for efficient batch processing
+
 Supports parallel execution for large datasets
 
 
