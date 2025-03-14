@@ -11,12 +11,6 @@ This project reads data from a CSV file and inserts it into a database using **S
 - **Spring Data JPA** → A library that simplifies database interactions using Java Persistence API (JPA).
 - **MySQL / PostgreSQL** → Relational database management systems used to store processed data.
 - **Maven** → A build automation and dependency management tool for Java projects.
-- **Java 17**
-- **Spring Boot**
-- **Spring Batch**
-- **Spring Data JPA**
-- **MySQL / PostgreSQL**
-- **Maven**
 
 ## 📂 Project Structure
 ```
