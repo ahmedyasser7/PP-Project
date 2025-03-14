@@ -66,10 +66,6 @@ id,name,email,age
 ✔ Stores data efficiently in a database
 ✔ Logs errors for debugging invalid records
 
-## 🏗 Future Enhancements
-- Implement a web interface to upload CSV files.
-- Add error handling and retry mechanisms.
-- Support multiple file formats (e.g., JSON, XML).
 
 ## 👨‍💻 Authors
 Developed by:
