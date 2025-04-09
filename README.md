@@ -7,7 +7,7 @@ This project reads data from a CSV file and inserts it into a database using **S
 ## 🛠️ Technologies Used
 - **Java 17** → The programming language used to develop the application.
 - **Spring Boot** → A framework that simplifies the development of Java applications, providing built-in configurations and reducing boilerplate code.
-- **Spring Batch** → A framework for processing large volumes of data efficiently in batch mode.
+- **Spring Batch** → A framework for efficiently processing large volumes of data in batch mode.
 - **Spring Data JPA** → A library that simplifies database interactions using Java Persistence API (JPA).
 - **MySQL / PostgreSQL** → Relational database management systems used to store processed data.
 - **Maven** → A build automation and dependency management tool for Java projects.
@@ -32,7 +32,7 @@ This project reads data from a CSV file and inserts it into a database using **S
 ## 📥 Installation & Setup
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/yourusername/csv-to-database.git
+git clone https://github.com/PP-Project/csv-to-database.git
 cd csv-to-database
 ```
 
@@ -60,10 +60,10 @@ id,name,email,age
 ```
 
 ## ✅ Features
-✔ Reads CSV files dynamically
-✔ Processes data in batches efficiently
-✔ Validates and transforms records before inserting
-✔ Stores data efficiently in a database
+✔ Reads CSV files dynamically <br>
+✔ Processes data in batches efficiently <br>
+✔ Validates and transforms records before inserting <br>
+✔ Stores data efficiently in a database <br>
 ✔ Logs errors for debugging invalid records
 
 
@@ -73,4 +73,3 @@ Developed by:
 - Ahmed Yasser Taha
 - Moaaz Ahmed Hussien
 - Noruhan Mohamed Emam
-
