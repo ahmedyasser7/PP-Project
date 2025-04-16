@@ -8,20 +8,9 @@ This project reads data from a CSV file and inserts it into a database using **S
 - **Java 17** → The programming language used to develop the application.
 - **Spring Boot** → A framework that simplifies the development of Java applications, providing built-in configurations and reducing boilerplate code.
 - **Spring Batch** → A framework for efficiently processing large volumes of data in batch mode.
-- **Spring Data JPA** → A library that simplifies database interactions using Java Persistence API (JPA).
-- **MySQL / PostgreSQL** → Relational database management systems used to store processed data.
+- **MySQL** → Relational database management systems used to store processed data.
 - **Maven** → A build automation and dependency management tool for Java projects.
 
-## 📂 Project Structure
-```
-📁 src/main/java/com/example/csvprocessor
- ┣ 📂 config          # Spring Batch Configuration
- ┣ 📂 entity          # User Entity
- ┣ 📂 processor       # Data Processing Logic
- ┣ 📂 repository      # Database Repository
- ┣ 📂 writer          # Batch Writer
- ┗ 📂 main            # Main Application Entry Point
-```
 
 ## 🚀 How It Works
 1. **Reads** data from a CSV file using `FlatFileItemReader`.
@@ -29,27 +18,6 @@ This project reads data from a CSV file and inserts it into a database using **S
 3. **Inserts** valid records into the database in batches using `JdbcBatchItemWriter` or `JpaItemWriter`.
 4. **Ignores or logs** invalid records for later review.
 
-## 📥 Installation & Setup
-### 1️⃣ Clone the Repository
-```sh
-git clone https://github.com/PP-Project/csv-to-database.git
-cd csv-to-database
-```
-
-### 2️⃣ Configure Database
-Modify `application.properties` to set up your database:
-```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/your_db
-spring.datasource.username=root
-spring.datasource.password=your_password
-spring.jpa.hibernate.ddl-auto=update
-spring.batch.initialize-schema=always
-```
-
-### 3️⃣ Run the Application
-```sh
-mvn spring-boot:run
-```
 
 ## 📄 Sample CSV Format
 ```
