@@ -37,7 +37,7 @@ id,name,email,age
 
 ## 👨‍💻 Authors
 Developed by:
-- Ahmed Essam Mohamed
+- Ahmed Essam Mohammed Samy
 - Ahmed Yasser Taha
 - Moaaz Ahmed Hussien
-- Noruhan Mohamed Emam
+- Nourhan Mohammed Emam
