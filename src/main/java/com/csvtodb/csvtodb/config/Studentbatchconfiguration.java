@@ -18,6 +18,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.FileSystemResource;
 import org.springframework.transaction.PlatformTransactionManager;
+import org.springframework.core.task.SimpleAsyncTaskExecutor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.batch.core.JobParameters;
 import org.springframework.batch.core.JobParametersBuilder;
@@ -74,6 +75,7 @@ public class Studentbatchconfiguration {
                 .<Student, Student>chunk(10, transactionManager)
                 .reader(readFromCsv())
                 .writer(writerIntoDB())
+                .taskExecutor(new SimpleAsyncTaskExecutor())
                 .build();
     }
 
