@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Sequential Test
+echo "=== SEQUENTIAL MODE ==="
+mvn spring-boot:run -Dspring-boot.run.profiles=sequential -Dspring.batch.job.enabled=true
+
+# Reset Database
+mysql -u root -p csvtodb -e "TRUNCATE TABLE csvtodbdata;"
+
+# Parallel Test 
+echo "=== PARALLEL MODE ==="
+mvn spring-boot:run -Dspring-boot.run.profiles=parallel -Dspring.batch.job.enabled=true

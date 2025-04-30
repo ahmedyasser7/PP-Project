@@ -31,3 +31,9 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### data ###
+data_generate.py
+
+### how to build ###
+how-to-run.txt
